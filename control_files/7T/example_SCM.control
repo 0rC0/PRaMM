@@ -1,0 +1,34 @@
+
+$LCMODL
+title='sub-701_loc-pcc'
+atth2o= 0.8111
+key = 210387309
+deltat= 1.250e-04
+doecc= F
+dows= T
+hzpppm= 2.9721e+02
+neach= 999
+nunfil= 4096
+SDDEGZ = 1
+SDDEGP = 0
+shifmn = -0.05
+shifmx = 0.05
+FIXSHF = T
+ppmend= 0.2
+ppmst= 4.2
+wconc= 43432
+dkntmn= 0.25
+echot= 9
+nomit= 12
+chomit= '-CrCH2' 'Gua' 'Ser' 'Lip13a' 'Lip13b' 'Lip09' 'MM09' 'Lip20' 'MM20' 'MM12' 'MM14' 'MM17'
+NRATIO = 0
+FILBAS='/home/orco/data/MacroMols/MRS/MacroMols_7T/derivatives/NewBasis/7T_SPECIAL_real_TE9.basis'
+FILRAW='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.raw'
+LTABLE=7, FILTAB='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.table'
+FILPS='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.ps'
+LCSV=11, FILCSV='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.csv'
+LCOORD=9, FILCOO='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.coord'
+LPRINT=6, FILPRI='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.print'
+LCORAW=10, FILCOR='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.coraw'
+filh2o='/home/orco/data/MacroMols/MRS/MacroMols_7T/derivatives/suspect_preprocessing/sub-701/mrs/sub-701_nuc-1H_loc-pcc_spec-lr-special_water_wOVSavg.raw'
+$END
