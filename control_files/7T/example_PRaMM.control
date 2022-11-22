@@ -1,7 +1,8 @@
 
 $LCMODL
 title='PRaMM_sub-701_loc-pcc'
-atth2o= 0.8111
+atth2o= 1
+wconc= 33436.12726648437
 key = 210387309
 deltat= 1.250e-04
 doecc= F
@@ -16,8 +17,7 @@ shifmx = 0.05
 FIXSHF = T
 ppmend= 0.2
 ppmst= 4.2
-wconc= 43432
-dkntmn= 0.25
+dkntmn= 99
 echot= 9
 nsimul= 15
 chsimu(15) = 'M4.04 @ 4.05 +- .05 FWHM=0.001 < 0.08 +- .005 AMP=1'
@@ -60,5 +60,5 @@ LCSV=11, FILCSV='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc
 LCOORD=9, FILCOO='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.coord'
 LPRINT=6, FILPRI='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.print'
 LCORAW=10, FILCOR='sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd/sub-701_nuc-1H_loc-pcc_spec-lr-specialavg_ecc_hlsvd.coraw'
-filh2o='/home/orco/data/MacroMols/MRS/MacroMols_7T/derivatives/suspect_preprocessing/sub-701/mrs/sub-701_nuc-1H_loc-pcc_spec-lr-special_water_wOVSavg.raw'
+filh2o='sub-701_nuc-1H_loc-pcc_spec-lr-special_water_wOVSavg.raw'
 $END

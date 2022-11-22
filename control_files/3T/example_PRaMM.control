@@ -1,0 +1,60 @@
+
+$LCMODL
+title='PRaMM_sub-001_loc-pcc'
+ key = 210387309
+ deltat= 2.500e-04
+ doecc= F
+ dows= T
+ hzpppm= 1.2326e+02
+ neach= 999
+ nunfil= 4096
+SDDEGZ = 1
+SDDEGP = 0
+shifmn = -0.05
+shifmx = 0.05
+FIXSHF = T
+ppmend= 0.2
+ppmst= 4.2
+wconc= 43432
+dkntmn= 1
+echot= 8.5
+nsimul= 12
+chsimu(13) = 'M4.05 @ 4.05 +- .001 FWHM=.01 < .03 +- .005 AMP=1'
+chsimu(12) = 'M3.80 @ 3.80 +- .015 FWHM=.04 < .08 +- .01 AMP=1'
+chsimu(11) = 'M3.68 @ 3.68 +- .015 FWHM=.04 < .08 +- .01 AMP=1'
+chsimu(10) = 'M3.60 @ 3.60 +- .015 FWHM=.04 < .07 +- .01 AMP=1'
+chsimu(9) = 'M3.21 @ 3.21 +- .01 FWHM=.12 < .18 +- .01 AMP=1'
+chsimu(8) = 'M3.00 @ 3.03 +- .03 FWHM=.05 < .15 +- .01 AMP=1.'
+chsimu(7) = 'M2.54 @ 2.60 +- .02 FWHM=.09 < .11 +- .005 AMP=1.'
+chsimu(6) = 'M2.24 @ 2.27  +- .01 FWHM=.08 < .11 +- .005 AMP=1.'
+chsimu(5) = 'M2.05 @ 2.02 +- .01 FWHM=.25 < .37 +- .02 AMP=1.'
+chsimu(4) = 'M1.66 @ 1.66 +- .025 FWHM= .10 < .15 +- .01 AMP= 1.'
+chsimu(3) = 'M1.42 @ 1.43 +- .025 FWHM= .08 < .15 +- .01 AMP= 1.'
+chsimu(2) = 'M1.22 @ 1.22 +- .025 FWHM= .08 < .15 +- .01 AMP= 1.'
+chsimu(1) = 'M0.94 @ 0.94 +- .025 FWHM= .08 < .15 +- .01 AMP= 1.'
+nratio = 12
+chrato(1) = 'M1.22/M0.94 = 0.53 +- 0.05'
+chrato(2) = 'M1.42/M0.94 = 1.16 +- 0.12'
+chrato(3) = 'M1.66/M0.94 = 0.78 +- 0.08'
+chrato(4) = 'M1.66/M1.22 = 1.24 +- 0.12'
+chrato(5) = 'M2.24/M1.42 = 0.22 +- 0.02'
+chrato(6) = 'M3.00/M2.05 = 0.15 +- 0.01'
+chrato(7) = 'M3.00/M2.54 = 1.24 +- 0.12'
+chrato(8) = 'M3.60/M3.21 = 0.24 +- 0.02'
+chrato(9) = 'M3.68/M3.21 = 0.30 +- 0.03'
+chrato(10) = 'M3.80/M2.05 = 0.7 +- 0.01'
+chrato(11) = 'M3.80/M3.00 = 0.45 +- 0.04'
+chrato(12) = 'M3.80/M3.68 = 1.30 +- 0.13'
+nomit= 11
+chomit= '-CrCH2' 'Gua' 'Ser' 'Lip13a' 'Lip13b' 'Lip09' 'MM09' 'Lip20' 'MM20' 'MM12' 'MM14' 'MM17'
+chcomb= 'GPC+PCho'
+FILBAS='/home/orco/data/MacroMols/MRS/MacroMols_3T/derivatives/basis/3T_NEUROMET_sim_mac_mc_noMM.basis'
+FILRAW='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.raw'
+LTABLE=7, FILTAB='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd/sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.table'
+FILPS='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.ps'
+LCSV=11, FILCSV='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd/sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.csv'
+LCOORD=9, FILCOO='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd/sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.coord'
+LPRINT=6, FILPRI='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd/sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.print'
+LCORAW=10, FILCOR='sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd/sub-001_nuc-1H_loc-pcc_spec-rm-specialavg_ecc_hlsvd.coraw'
+filh2o='/home/orco/data/MacroMols/MRS/MacroMols_3T/derivatives/suspect_preprocessing/sub-001/mrs/sub-001_nuc-1H_loc-pcc_spec-rm-special-water_wOVSavg.raw'
+$END
